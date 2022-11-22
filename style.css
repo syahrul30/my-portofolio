@@ -1,0 +1,151 @@
+:root {
+    --clr-dark: rgb(34, 40, 49);
+    --clr-light: rgb(255, 247, 233);
+    --clr-gray: rgba(107, 114, 128, 0.651);
+    --clr-orange: rgb(255, 115, 29);
+    --clr-primary: rgb(95, 157, 247);
+    --clr-secondary: rgb(23, 70, 162);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar {
+    background: var(--clr-orange) !important;
+}
+
+.nav-logo {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.nav-logo:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 5px 5px 5px var(--clr-gray);
+    top: -4px;
+    border: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+}
+
+.nav-link {
+    font-family: 'Silkscreen', cursive;
+    font-weight: 500;
+    color: var(--clr-dark) !important;
+}
+
+.nav-link:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 5px 5px 5px var(--clr-gray);
+    top: -4px;
+    border: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+}
+
+
+/* about me */
+.section-one {
+    background: var(--clr-light);
+}
+
+.main-header {
+    font-family: 'Silkscreen', cursive;
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--clr-dark);
+}
+
+@media (max-width: 844px) {
+    .main-header { 
+        font-size: 40px;
+    }
+}
+
+.text-name {
+    color: var(--clr-secondary);
+}
+
+.text-content {
+    color: var(--clr-gray);
+    font-size: 16px;
+}
+
+.my-photo {
+    box-shadow: 0px 0px 5px 5px rgba(102, 101, 101, 0.116);
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.my-photo:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 5px 10px 5px var(--clr-gray);
+    top: -4px;
+    border: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+}
+
+@media (max-width: 844px) {
+    .my-photo { 
+        margin-top: 50px;
+        height: 400px;
+    }
+}
+
+
+/* project section */
+.section-two {
+    background: var(--clr-primary);
+}
+
+.section-header {
+    font-family: 'Silkscreen', cursive;
+    font-weight: 500;
+    padding-top: 30px;
+    color: var(--clr-dark);
+}
+
+.text-title {
+    color: var(--clr-light);
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.card-body {
+    background: var(--clr-light);
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 0px 5px 5px rgba(102, 101, 101, 0.116);
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 5px 10px 5px var(--clr-gray);
+    top: -4px;
+    border: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+}
+
