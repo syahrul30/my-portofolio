@@ -17,8 +17,8 @@ body {
 }
 
 .nav-logo {
-    height: 60px;
-    margin-bottom: 10px;
+    height: 40px;
+    margin-bottom: 5px;
 }
 
 .nav-logo:hover {
@@ -40,7 +40,7 @@ body {
 .nav-link {
     font-family: 'Silkscreen', cursive;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--clr-dark) !important;
 }
 
@@ -161,6 +161,11 @@ body {
 
 .card-body {
     background: var(--clr-light);
+    height: 230px;
+}
+
+.card-title {
+    font-family: 'Silkscreen', cursive;
 }
 
 .card {
@@ -192,6 +197,7 @@ body {
 .footer-title {
     color: var(--clr-light);
 }
+
 footer{
     position: relative;
     width: 100%;
