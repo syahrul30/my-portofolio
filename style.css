@@ -198,6 +198,10 @@ body {
     color: var(--clr-light);
 }
 
+footer ul {
+    padding: 0 !important;
+}
+
 footer{
     position: relative;
     width: 100%;
